@@ -2,7 +2,6 @@ name: nlp-question-answering-system
 channels:
   - defaults
 dependencies:
-  - -r requirements.txt
   - _libgcc_mutex=0.1=main
   - ca-certificates=2020.7.22=0
   - certifi=2020.6.20=py37_0
@@ -23,6 +22,7 @@ dependencies:
   - xz=5.2.5=h7b6447c_0
   - zlib=1.2.11=h7b6447c_3
   - pip:
+    - torch==1.6.0
     - altair==4.1.0
     - argon2-cffi==20.1.0
     - astor==0.8.1
